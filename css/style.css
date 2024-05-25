@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT sans', 'sans-serif';
+    background-color: #000;
+}
+.nav{
+    background-color: #C97B4E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.logo{
+    font-size: 25px;
+    color: #000;
+    font-weight: 100;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #ffffff;
+    color: #000;
+    border-radius: 15px;
+}
