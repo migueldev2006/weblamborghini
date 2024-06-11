@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,4 +41,28 @@ body{
 }
 .header .menu li a:hover{
     color: #fff;
+}
+
+section{
+    margin: 80px;
+    display: flex;
+    align-content: space-between;
+}
+section .todo .title{
+    color: #fff;
+    font-size: 64px;
+    display: flex;
+}
+section .todo .historia{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.piepagina p{
+    height: 80px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
