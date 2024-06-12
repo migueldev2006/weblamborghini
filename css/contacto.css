@@ -42,33 +42,6 @@ body{
 .header .menu li a:hover{
     color: #fff;
 }
-
-section{
-    margin: 80px;
-    display: flex;
-    align-content: space-between;
-}
-section .todo .title{
-    color: #fff;
-    font-size: 64px;
-    display: flex;
-}
-section .todo .historia{
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    margin-right: 50px;
-}
-.divimages{
-    /*display: flex;*/
-    background-color: #000;
-    border-radius: 20px;
-}
-.images{
-    width: 600px; 
-    height: 350px;   
-}
-
 .piepagina p{
     height: 80px;
     color: #fff;

@@ -7,6 +7,9 @@
 }
 body{
     background-color: #000;
+    background-image: url('/assents/img/caracteristicas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
     background-color: #C97B4E;
@@ -42,33 +45,10 @@ body{
 .header .menu li a:hover{
     color: #fff;
 }
-
-section{
-    margin: 80px;
-    display: flex;
-    align-content: space-between;
-}
-section .todo .title{
+.section .tabla{
     color: #fff;
-    font-size: 64px;
-    display: flex;
+    background-image: url('/assents/img/caracteristicas2.jpg');
 }
-section .todo .historia{
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    margin-right: 50px;
-}
-.divimages{
-    /*display: flex;*/
-    background-color: #000;
-    border-radius: 20px;
-}
-.images{
-    width: 600px; 
-    height: 350px;   
-}
-
 .piepagina p{
     height: 80px;
     color: #fff;
