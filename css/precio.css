@@ -1,0 +1,173 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #000;
+}
+.header{
+    background-color: #C97B4E;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding: 3px 3%;
+}
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.header .logo a{
+    color: #000;
+    text-decoration: none;
+}
+.header .logo a:hover{
+    color: #fff;
+}
+.header .menu{
+    list-style: none;
+}
+.header .menu li{
+    display: inline-block;
+    padding:  0 10px;
+}
+.header .menu a{
+    font-size: 600;
+    color:#000;
+    text-decoration: none;
+}
+.header .menu li a:hover{
+    color: #fff;
+}
+.imagen{
+    background-image: url(/assents/img/precio3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 900px;
+}
+.imagen h1{
+    padding: 500px 1000px 25px 25px;
+    font-size: 100px;
+}
+.fondo1{
+    background-image: url(/assents/img/precio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.fondo1 .texto{
+    padding: 50px 0px 200px 30px;
+    font-size: 50px;
+}
+.fondo1 .urus{
+    display: flex;
+    margin: 100px 0px 300px 0p;
+}
+.text h1{
+    font-size: 100px;
+}
+.text{
+    margin: 0px 50px 0px 30px;
+}
+.text p{
+    font-size: 50px;
+}
+.urus .img{
+    margin-right: 30px;
+    width: 700px;
+    height: 400px;
+    border-radius: 25px;
+}
+.fondo1 .huracan{
+    display: flex;
+    margin: 100px 0px 100px 0px;
+}
+.huracan .img2{
+    margin-left: 30px;
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+}
+.text2{
+    margin: 85px 0px 0px 50px;
+}
+.text2 h1{
+    font-size: 100px;
+}
+.text2 p{
+    margin: 25px 0px 50px 0px;
+    font-size: 50px;
+}
+.imagen2{
+    background-image: url(/assents/img/precio4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    border-radius: 50px;
+}
+.imagen2 h1{
+    color: #fff;
+    font-size: 200px;
+    text-align: center;
+    padding: 460px 0px 25px 0px;
+}
+.fondo2{
+    background-image: url(/assents/img/precio2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#fff
+}
+.fondo2 .texto2{
+    font-size: 50px;
+    padding: 80px;
+}
+.fondo2 h1{
+    font-size: 100px;
+}
+.fondo2 p{
+    font-size: 50px;
+}
+.centenario{
+    display: flex;
+    margin: 50px 0px 200px 0px;
+}
+.img3{
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+.text3{
+    margin: 0px 50px 0px 50px;
+}
+.veneno{
+    display: flex;
+}
+.text4{
+    margin: 120px 50px 0px 50px;
+}
+.img4{
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+}
+.final{
+    width: 100%;
+    height: 747px;
+    border-radius: 450px;
+    margin: 100px 0px 5px 0px;
+}
+.piepagina p{
+    height: 80px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}

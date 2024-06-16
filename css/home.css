@@ -55,7 +55,7 @@ section .todo .title{
 }
 section .todo .historia{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     margin-right: 50px;
 }
