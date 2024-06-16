@@ -95,6 +95,9 @@ th, td{
     text-align: left;
     align-self: flex-end;
 }
+.texto a{
+    color: #fff;
+}
 .piepagina p{
     height: 80px;
     color: #fff;
