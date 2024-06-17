@@ -51,12 +51,10 @@ section{
 section .todo .title{
     color: #fff;
     font-size: 64px;
-    display: flex;
 }
 section .todo .historia{
     color: #fff;
     font-size: 30px;
-    display: flex;
     margin-right: 50px;
 }
 .divimages{
@@ -70,6 +68,7 @@ section .todo .historia{
 }
 
 .piepagina p{
+    background-color: #000;
     height: 80px;
     color: #fff;
     font-size: 20px;
